@@ -1,0 +1,509 @@
+tr	Yelda	c-gel-abil-0	gelebilirim
+tr	Yelda	c-gel-abil-1	gelebilirsin
+tr	Yelda	c-gel-abil-2	gelebilir
+tr	Yelda	c-gel-abil-3	gelebiliriz
+tr	Yelda	c-gel-abil-4	gelebilirsiniz
+tr	Yelda	c-gel-abil-5	gelebilirler
+tr	Yelda	c-gel-ama-0	gelemem
+tr	Yelda	c-gel-ama-1	gelemezsin
+tr	Yelda	c-gel-ama-2	gelemez
+tr	Yelda	c-gel-ama-3	gelemeyiz
+tr	Yelda	c-gel-ama-4	gelemezsiniz
+tr	Yelda	c-gel-ama-5	gelemezler
+tr	Yelda	c-gel-mayabil-0	gelmeyebilirim
+tr	Yelda	c-gel-mayabil-1	gelmeyebilirsin
+tr	Yelda	c-gel-mayabil-2	gelmeyebilir
+tr	Yelda	c-gel-mayabil-3	gelmeyebiliriz
+tr	Yelda	c-gel-mayabil-4	gelmeyebilirsiniz
+tr	Yelda	c-gel-mayabil-5	gelmeyebilirler
+tr	Yelda	c-gel-q-0	gelebilir miyim
+tr	Yelda	c-gel-q-1	gelebilir misin
+tr	Yelda	c-gel-q-2	gelebilir mi
+tr	Yelda	c-gel-q-3	gelebilir miyiz
+tr	Yelda	c-gel-q-4	gelebilir misiniz
+tr	Yelda	c-gel-q-5	gelebilirler mi
+tr	Yelda	c-gel-mali-0	gelmeliyim
+tr	Yelda	c-gel-mali-1	gelmelisin
+tr	Yelda	c-gel-mali-2	gelmeli
+tr	Yelda	c-gel-mali-3	gelmeliyiz
+tr	Yelda	c-gel-mali-4	gelmelisiniz
+tr	Yelda	c-gel-mali-5	gelmeliler
+tr	Yelda	c-gel-mamali-0	gelmemeliyim
+tr	Yelda	c-gel-mamali-1	gelmemelisin
+tr	Yelda	c-gel-mamali-2	gelmemeli
+tr	Yelda	c-gel-mamali-3	gelmemeliyiz
+tr	Yelda	c-gel-mamali-4	gelmemelisiniz
+tr	Yelda	c-gel-mamali-5	gelmemeliler
+tr	Yelda	c-gel-lazim-0	gelmem lazım
+tr	Yelda	c-gel-lazim-1	gelmen lazım
+tr	Yelda	c-gel-lazim-2	gelmesi lazım
+tr	Yelda	c-gel-lazim-3	gelmemiz lazım
+tr	Yelda	c-gel-lazim-4	gelmeniz lazım
+tr	Yelda	c-gel-lazim-5	gelmeleri lazım
+tr	Yelda	c-gel-zorunda-0	gelmek zorundayım
+tr	Yelda	c-gel-zorunda-1	gelmek zorundasın
+tr	Yelda	c-gel-zorunda-2	gelmek zorunda
+tr	Yelda	c-gel-zorunda-3	gelmek zorundayız
+tr	Yelda	c-gel-zorunda-4	gelmek zorundasınız
+tr	Yelda	c-gel-zorunda-5	gelmek zorundalar
+tr	Yelda	c-yap-abil-0	yapabilirim
+tr	Yelda	c-yap-abil-1	yapabilirsin
+tr	Yelda	c-yap-abil-2	yapabilir
+tr	Yelda	c-yap-abil-3	yapabiliriz
+tr	Yelda	c-yap-abil-4	yapabilirsiniz
+tr	Yelda	c-yap-abil-5	yapabilirler
+tr	Yelda	c-yap-ama-0	yapamam
+tr	Yelda	c-yap-ama-1	yapamazsın
+tr	Yelda	c-yap-ama-2	yapamaz
+tr	Yelda	c-yap-ama-3	yapamayız
+tr	Yelda	c-yap-ama-4	yapamazsınız
+tr	Yelda	c-yap-ama-5	yapamazlar
+tr	Yelda	c-yap-mayabil-0	yapmayabilirim
+tr	Yelda	c-yap-mayabil-1	yapmayabilirsin
+tr	Yelda	c-yap-mayabil-2	yapmayabilir
+tr	Yelda	c-yap-mayabil-3	yapmayabiliriz
+tr	Yelda	c-yap-mayabil-4	yapmayabilirsiniz
+tr	Yelda	c-yap-mayabil-5	yapmayabilirler
+tr	Yelda	c-yap-q-0	yapabilir miyim
+tr	Yelda	c-yap-q-1	yapabilir misin
+tr	Yelda	c-yap-q-2	yapabilir mi
+tr	Yelda	c-yap-q-3	yapabilir miyiz
+tr	Yelda	c-yap-q-4	yapabilir misiniz
+tr	Yelda	c-yap-q-5	yapabilirler mi
+tr	Yelda	c-yap-mali-0	yapmalıyım
+tr	Yelda	c-yap-mali-1	yapmalısın
+tr	Yelda	c-yap-mali-2	yapmalı
+tr	Yelda	c-yap-mali-3	yapmalıyız
+tr	Yelda	c-yap-mali-4	yapmalısınız
+tr	Yelda	c-yap-mali-5	yapmalılar
+tr	Yelda	c-yap-mamali-0	yapmamalıyım
+tr	Yelda	c-yap-mamali-1	yapmamalısın
+tr	Yelda	c-yap-mamali-2	yapmamalı
+tr	Yelda	c-yap-mamali-3	yapmamalıyız
+tr	Yelda	c-yap-mamali-4	yapmamalısınız
+tr	Yelda	c-yap-mamali-5	yapmamalılar
+tr	Yelda	c-yap-lazim-0	yapmam lazım
+tr	Yelda	c-yap-lazim-1	yapman lazım
+tr	Yelda	c-yap-lazim-2	yapması lazım
+tr	Yelda	c-yap-lazim-3	yapmamız lazım
+tr	Yelda	c-yap-lazim-4	yapmanız lazım
+tr	Yelda	c-yap-lazim-5	yapmaları lazım
+tr	Yelda	c-yap-zorunda-0	yapmak zorundayım
+tr	Yelda	c-yap-zorunda-1	yapmak zorundasın
+tr	Yelda	c-yap-zorunda-2	yapmak zorunda
+tr	Yelda	c-yap-zorunda-3	yapmak zorundayız
+tr	Yelda	c-yap-zorunda-4	yapmak zorundasınız
+tr	Yelda	c-yap-zorunda-5	yapmak zorundalar
+tr	Yelda	c-oku-abil-0	okuyabilirim
+tr	Yelda	c-oku-abil-1	okuyabilirsin
+tr	Yelda	c-oku-abil-2	okuyabilir
+tr	Yelda	c-oku-abil-3	okuyabiliriz
+tr	Yelda	c-oku-abil-4	okuyabilirsiniz
+tr	Yelda	c-oku-abil-5	okuyabilirler
+tr	Yelda	c-oku-ama-0	okuyamam
+tr	Yelda	c-oku-ama-1	okuyamazsın
+tr	Yelda	c-oku-ama-2	okuyamaz
+tr	Yelda	c-oku-ama-3	okuyamayız
+tr	Yelda	c-oku-ama-4	okuyamazsınız
+tr	Yelda	c-oku-ama-5	okuyamazlar
+tr	Yelda	c-oku-mayabil-0	okumayabilirim
+tr	Yelda	c-oku-mayabil-1	okumayabilirsin
+tr	Yelda	c-oku-mayabil-2	okumayabilir
+tr	Yelda	c-oku-mayabil-3	okumayabiliriz
+tr	Yelda	c-oku-mayabil-4	okumayabilirsiniz
+tr	Yelda	c-oku-mayabil-5	okumayabilirler
+tr	Yelda	c-oku-q-0	okuyabilir miyim
+tr	Yelda	c-oku-q-1	okuyabilir misin
+tr	Yelda	c-oku-q-2	okuyabilir mi
+tr	Yelda	c-oku-q-3	okuyabilir miyiz
+tr	Yelda	c-oku-q-4	okuyabilir misiniz
+tr	Yelda	c-oku-q-5	okuyabilirler mi
+tr	Yelda	c-oku-mali-0	okumalıyım
+tr	Yelda	c-oku-mali-1	okumalısın
+tr	Yelda	c-oku-mali-2	okumalı
+tr	Yelda	c-oku-mali-3	okumalıyız
+tr	Yelda	c-oku-mali-4	okumalısınız
+tr	Yelda	c-oku-mali-5	okumalılar
+tr	Yelda	c-oku-mamali-0	okumamalıyım
+tr	Yelda	c-oku-mamali-1	okumamalısın
+tr	Yelda	c-oku-mamali-2	okumamalı
+tr	Yelda	c-oku-mamali-3	okumamalıyız
+tr	Yelda	c-oku-mamali-4	okumamalısınız
+tr	Yelda	c-oku-mamali-5	okumamalılar
+tr	Yelda	c-oku-lazim-0	okumam lazım
+tr	Yelda	c-oku-lazim-1	okuman lazım
+tr	Yelda	c-oku-lazim-2	okuması lazım
+tr	Yelda	c-oku-lazim-3	okumamız lazım
+tr	Yelda	c-oku-lazim-4	okumanız lazım
+tr	Yelda	c-oku-lazim-5	okumaları lazım
+tr	Yelda	c-oku-zorunda-0	okumak zorundayım
+tr	Yelda	c-oku-zorunda-1	okumak zorundasın
+tr	Yelda	c-oku-zorunda-2	okumak zorunda
+tr	Yelda	c-oku-zorunda-3	okumak zorundayız
+tr	Yelda	c-oku-zorunda-4	okumak zorundasınız
+tr	Yelda	c-oku-zorunda-5	okumak zorundalar
+tr	Yelda	c-git-abil-0	gidebilirim
+tr	Yelda	c-git-abil-1	gidebilirsin
+tr	Yelda	c-git-abil-2	gidebilir
+tr	Yelda	c-git-abil-3	gidebiliriz
+tr	Yelda	c-git-abil-4	gidebilirsiniz
+tr	Yelda	c-git-abil-5	gidebilirler
+tr	Yelda	c-git-ama-0	gidemem
+tr	Yelda	c-git-ama-1	gidemezsin
+tr	Yelda	c-git-ama-2	gidemez
+tr	Yelda	c-git-ama-3	gidemeyiz
+tr	Yelda	c-git-ama-4	gidemezsiniz
+tr	Yelda	c-git-ama-5	gidemezler
+tr	Yelda	c-git-mayabil-0	gitmeyebilirim
+tr	Yelda	c-git-mayabil-1	gitmeyebilirsin
+tr	Yelda	c-git-mayabil-2	gitmeyebilir
+tr	Yelda	c-git-mayabil-3	gitmeyebiliriz
+tr	Yelda	c-git-mayabil-4	gitmeyebilirsiniz
+tr	Yelda	c-git-mayabil-5	gitmeyebilirler
+tr	Yelda	c-git-q-0	gidebilir miyim
+tr	Yelda	c-git-q-1	gidebilir misin
+tr	Yelda	c-git-q-2	gidebilir mi
+tr	Yelda	c-git-q-3	gidebilir miyiz
+tr	Yelda	c-git-q-4	gidebilir misiniz
+tr	Yelda	c-git-q-5	gidebilirler mi
+tr	Yelda	c-git-mali-0	gitmeliyim
+tr	Yelda	c-git-mali-1	gitmelisin
+tr	Yelda	c-git-mali-2	gitmeli
+tr	Yelda	c-git-mali-3	gitmeliyiz
+tr	Yelda	c-git-mali-4	gitmelisiniz
+tr	Yelda	c-git-mali-5	gitmeliler
+tr	Yelda	c-git-mamali-0	gitmemeliyim
+tr	Yelda	c-git-mamali-1	gitmemelisin
+tr	Yelda	c-git-mamali-2	gitmemeli
+tr	Yelda	c-git-mamali-3	gitmemeliyiz
+tr	Yelda	c-git-mamali-4	gitmemelisiniz
+tr	Yelda	c-git-mamali-5	gitmemeliler
+tr	Yelda	c-git-lazim-0	gitmem lazım
+tr	Yelda	c-git-lazim-1	gitmen lazım
+tr	Yelda	c-git-lazim-2	gitmesi lazım
+tr	Yelda	c-git-lazim-3	gitmemiz lazım
+tr	Yelda	c-git-lazim-4	gitmeniz lazım
+tr	Yelda	c-git-lazim-5	gitmeleri lazım
+tr	Yelda	c-git-zorunda-0	gitmek zorundayım
+tr	Yelda	c-git-zorunda-1	gitmek zorundasın
+tr	Yelda	c-git-zorunda-2	gitmek zorunda
+tr	Yelda	c-git-zorunda-3	gitmek zorundayız
+tr	Yelda	c-git-zorunda-4	gitmek zorundasınız
+tr	Yelda	c-git-zorunda-5	gitmek zorundalar
+tr	Yelda	c-konus-abil-0	konuşabilirim
+tr	Yelda	c-konus-abil-1	konuşabilirsin
+tr	Yelda	c-konus-abil-2	konuşabilir
+tr	Yelda	c-konus-abil-3	konuşabiliriz
+tr	Yelda	c-konus-abil-4	konuşabilirsiniz
+tr	Yelda	c-konus-abil-5	konuşabilirler
+tr	Yelda	c-konus-ama-0	konuşamam
+tr	Yelda	c-konus-ama-1	konuşamazsın
+tr	Yelda	c-konus-ama-2	konuşamaz
+tr	Yelda	c-konus-ama-3	konuşamayız
+tr	Yelda	c-konus-ama-4	konuşamazsınız
+tr	Yelda	c-konus-ama-5	konuşamazlar
+tr	Yelda	c-konus-mayabil-0	konuşmayabilirim
+tr	Yelda	c-konus-mayabil-1	konuşmayabilirsin
+tr	Yelda	c-konus-mayabil-2	konuşmayabilir
+tr	Yelda	c-konus-mayabil-3	konuşmayabiliriz
+tr	Yelda	c-konus-mayabil-4	konuşmayabilirsiniz
+tr	Yelda	c-konus-mayabil-5	konuşmayabilirler
+tr	Yelda	c-konus-q-0	konuşabilir miyim
+tr	Yelda	c-konus-q-1	konuşabilir misin
+tr	Yelda	c-konus-q-2	konuşabilir mi
+tr	Yelda	c-konus-q-3	konuşabilir miyiz
+tr	Yelda	c-konus-q-4	konuşabilir misiniz
+tr	Yelda	c-konus-q-5	konuşabilirler mi
+tr	Yelda	c-konus-mali-0	konuşmalıyım
+tr	Yelda	c-konus-mali-1	konuşmalısın
+tr	Yelda	c-konus-mali-2	konuşmalı
+tr	Yelda	c-konus-mali-3	konuşmalıyız
+tr	Yelda	c-konus-mali-4	konuşmalısınız
+tr	Yelda	c-konus-mali-5	konuşmalılar
+tr	Yelda	c-konus-mamali-0	konuşmamalıyım
+tr	Yelda	c-konus-mamali-1	konuşmamalısın
+tr	Yelda	c-konus-mamali-2	konuşmamalı
+tr	Yelda	c-konus-mamali-3	konuşmamalıyız
+tr	Yelda	c-konus-mamali-4	konuşmamalısınız
+tr	Yelda	c-konus-mamali-5	konuşmamalılar
+tr	Yelda	c-konus-lazim-0	konuşmam lazım
+tr	Yelda	c-konus-lazim-1	konuşman lazım
+tr	Yelda	c-konus-lazim-2	konuşması lazım
+tr	Yelda	c-konus-lazim-3	konuşmamız lazım
+tr	Yelda	c-konus-lazim-4	konuşmanız lazım
+tr	Yelda	c-konus-lazim-5	konuşmaları lazım
+tr	Yelda	c-konus-zorunda-0	konuşmak zorundayım
+tr	Yelda	c-konus-zorunda-1	konuşmak zorundasın
+tr	Yelda	c-konus-zorunda-2	konuşmak zorunda
+tr	Yelda	c-konus-zorunda-3	konuşmak zorundayız
+tr	Yelda	c-konus-zorunda-4	konuşmak zorundasınız
+tr	Yelda	c-konus-zorunda-5	konuşmak zorundalar
+tr	Yelda	c-bekle-abil-0	bekleyebilirim
+tr	Yelda	c-bekle-abil-1	bekleyebilirsin
+tr	Yelda	c-bekle-abil-2	bekleyebilir
+tr	Yelda	c-bekle-abil-3	bekleyebiliriz
+tr	Yelda	c-bekle-abil-4	bekleyebilirsiniz
+tr	Yelda	c-bekle-abil-5	bekleyebilirler
+tr	Yelda	c-bekle-ama-0	bekleyemem
+tr	Yelda	c-bekle-ama-1	bekleyemezsin
+tr	Yelda	c-bekle-ama-2	bekleyemez
+tr	Yelda	c-bekle-ama-3	bekleyemeyiz
+tr	Yelda	c-bekle-ama-4	bekleyemezsiniz
+tr	Yelda	c-bekle-ama-5	bekleyemezler
+tr	Yelda	c-bekle-mayabil-0	beklemeyebilirim
+tr	Yelda	c-bekle-mayabil-1	beklemeyebilirsin
+tr	Yelda	c-bekle-mayabil-2	beklemeyebilir
+tr	Yelda	c-bekle-mayabil-3	beklemeyebiliriz
+tr	Yelda	c-bekle-mayabil-4	beklemeyebilirsiniz
+tr	Yelda	c-bekle-mayabil-5	beklemeyebilirler
+tr	Yelda	c-bekle-q-0	bekleyebilir miyim
+tr	Yelda	c-bekle-q-1	bekleyebilir misin
+tr	Yelda	c-bekle-q-2	bekleyebilir mi
+tr	Yelda	c-bekle-q-3	bekleyebilir miyiz
+tr	Yelda	c-bekle-q-4	bekleyebilir misiniz
+tr	Yelda	c-bekle-q-5	bekleyebilirler mi
+tr	Yelda	c-bekle-mali-0	beklemeliyim
+tr	Yelda	c-bekle-mali-1	beklemelisin
+tr	Yelda	c-bekle-mali-2	beklemeli
+tr	Yelda	c-bekle-mali-3	beklemeliyiz
+tr	Yelda	c-bekle-mali-4	beklemelisiniz
+tr	Yelda	c-bekle-mali-5	beklemeliler
+tr	Yelda	c-bekle-mamali-0	beklememeliyim
+tr	Yelda	c-bekle-mamali-1	beklememelisin
+tr	Yelda	c-bekle-mamali-2	beklememeli
+tr	Yelda	c-bekle-mamali-3	beklememeliyiz
+tr	Yelda	c-bekle-mamali-4	beklememelisiniz
+tr	Yelda	c-bekle-mamali-5	beklememeliler
+tr	Yelda	c-bekle-lazim-0	beklemem lazım
+tr	Yelda	c-bekle-lazim-1	beklemen lazım
+tr	Yelda	c-bekle-lazim-2	beklemesi lazım
+tr	Yelda	c-bekle-lazim-3	beklememiz lazım
+tr	Yelda	c-bekle-lazim-4	beklemeniz lazım
+tr	Yelda	c-bekle-lazim-5	beklemeleri lazım
+tr	Yelda	c-bekle-zorunda-0	beklemek zorundayım
+tr	Yelda	c-bekle-zorunda-1	beklemek zorundasın
+tr	Yelda	c-bekle-zorunda-2	beklemek zorunda
+tr	Yelda	c-bekle-zorunda-3	beklemek zorundayız
+tr	Yelda	c-bekle-zorunda-4	beklemek zorundasınız
+tr	Yelda	c-bekle-zorunda-5	beklemek zorundalar
+tr	Yelda	c-ic-abil-0	içebilirim
+tr	Yelda	c-ic-abil-1	içebilirsin
+tr	Yelda	c-ic-abil-2	içebilir
+tr	Yelda	c-ic-abil-3	içebiliriz
+tr	Yelda	c-ic-abil-4	içebilirsiniz
+tr	Yelda	c-ic-abil-5	içebilirler
+tr	Yelda	c-ic-ama-0	içemem
+tr	Yelda	c-ic-ama-1	içemezsin
+tr	Yelda	c-ic-ama-2	içemez
+tr	Yelda	c-ic-ama-3	içemeyiz
+tr	Yelda	c-ic-ama-4	içemezsiniz
+tr	Yelda	c-ic-ama-5	içemezler
+tr	Yelda	c-ic-mayabil-0	içmeyebilirim
+tr	Yelda	c-ic-mayabil-1	içmeyebilirsin
+tr	Yelda	c-ic-mayabil-2	içmeyebilir
+tr	Yelda	c-ic-mayabil-3	içmeyebiliriz
+tr	Yelda	c-ic-mayabil-4	içmeyebilirsiniz
+tr	Yelda	c-ic-mayabil-5	içmeyebilirler
+tr	Yelda	c-ic-q-0	içebilir miyim
+tr	Yelda	c-ic-q-1	içebilir misin
+tr	Yelda	c-ic-q-2	içebilir mi
+tr	Yelda	c-ic-q-3	içebilir miyiz
+tr	Yelda	c-ic-q-4	içebilir misiniz
+tr	Yelda	c-ic-q-5	içebilirler mi
+tr	Yelda	c-ic-mali-0	içmeliyim
+tr	Yelda	c-ic-mali-1	içmelisin
+tr	Yelda	c-ic-mali-2	içmeli
+tr	Yelda	c-ic-mali-3	içmeliyiz
+tr	Yelda	c-ic-mali-4	içmelisiniz
+tr	Yelda	c-ic-mali-5	içmeliler
+tr	Yelda	c-ic-mamali-0	içmemeliyim
+tr	Yelda	c-ic-mamali-1	içmemelisin
+tr	Yelda	c-ic-mamali-2	içmemeli
+tr	Yelda	c-ic-mamali-3	içmemeliyiz
+tr	Yelda	c-ic-mamali-4	içmemelisiniz
+tr	Yelda	c-ic-mamali-5	içmemeliler
+tr	Yelda	c-ic-lazim-0	içmem lazım
+tr	Yelda	c-ic-lazim-1	içmen lazım
+tr	Yelda	c-ic-lazim-2	içmesi lazım
+tr	Yelda	c-ic-lazim-3	içmemiz lazım
+tr	Yelda	c-ic-lazim-4	içmeniz lazım
+tr	Yelda	c-ic-lazim-5	içmeleri lazım
+tr	Yelda	c-ic-zorunda-0	içmek zorundayım
+tr	Yelda	c-ic-zorunda-1	içmek zorundasın
+tr	Yelda	c-ic-zorunda-2	içmek zorunda
+tr	Yelda	c-ic-zorunda-3	içmek zorundayız
+tr	Yelda	c-ic-zorunda-4	içmek zorundasınız
+tr	Yelda	c-ic-zorunda-5	içmek zorundalar
+tr	Yelda	c-gor-abil-0	görebilirim
+tr	Yelda	c-gor-abil-1	görebilirsin
+tr	Yelda	c-gor-abil-2	görebilir
+tr	Yelda	c-gor-abil-3	görebiliriz
+tr	Yelda	c-gor-abil-4	görebilirsiniz
+tr	Yelda	c-gor-abil-5	görebilirler
+tr	Yelda	c-gor-ama-0	göremem
+tr	Yelda	c-gor-ama-1	göremezsin
+tr	Yelda	c-gor-ama-2	göremez
+tr	Yelda	c-gor-ama-3	göremeyiz
+tr	Yelda	c-gor-ama-4	göremezsiniz
+tr	Yelda	c-gor-ama-5	göremezler
+tr	Yelda	c-gor-mayabil-0	görmeyebilirim
+tr	Yelda	c-gor-mayabil-1	görmeyebilirsin
+tr	Yelda	c-gor-mayabil-2	görmeyebilir
+tr	Yelda	c-gor-mayabil-3	görmeyebiliriz
+tr	Yelda	c-gor-mayabil-4	görmeyebilirsiniz
+tr	Yelda	c-gor-mayabil-5	görmeyebilirler
+tr	Yelda	c-gor-q-0	görebilir miyim
+tr	Yelda	c-gor-q-1	görebilir misin
+tr	Yelda	c-gor-q-2	görebilir mi
+tr	Yelda	c-gor-q-3	görebilir miyiz
+tr	Yelda	c-gor-q-4	görebilir misiniz
+tr	Yelda	c-gor-q-5	görebilirler mi
+tr	Yelda	c-gor-mali-0	görmeliyim
+tr	Yelda	c-gor-mali-1	görmelisin
+tr	Yelda	c-gor-mali-2	görmeli
+tr	Yelda	c-gor-mali-3	görmeliyiz
+tr	Yelda	c-gor-mali-4	görmelisiniz
+tr	Yelda	c-gor-mali-5	görmeliler
+tr	Yelda	c-gor-mamali-0	görmemeliyim
+tr	Yelda	c-gor-mamali-1	görmemelisin
+tr	Yelda	c-gor-mamali-2	görmemeli
+tr	Yelda	c-gor-mamali-3	görmemeliyiz
+tr	Yelda	c-gor-mamali-4	görmemelisiniz
+tr	Yelda	c-gor-mamali-5	görmemeliler
+tr	Yelda	c-gor-lazim-0	görmem lazım
+tr	Yelda	c-gor-lazim-1	görmen lazım
+tr	Yelda	c-gor-lazim-2	görmesi lazım
+tr	Yelda	c-gor-lazim-3	görmemiz lazım
+tr	Yelda	c-gor-lazim-4	görmeniz lazım
+tr	Yelda	c-gor-lazim-5	görmeleri lazım
+tr	Yelda	c-gor-zorunda-0	görmek zorundayım
+tr	Yelda	c-gor-zorunda-1	görmek zorundasın
+tr	Yelda	c-gor-zorunda-2	görmek zorunda
+tr	Yelda	c-gor-zorunda-3	görmek zorundayız
+tr	Yelda	c-gor-zorunda-4	görmek zorundasınız
+tr	Yelda	c-gor-zorunda-5	görmek zorundalar
+tr	Yelda	s-gelebilirmisin	Timur, gelebilir misin?
+tr	Yelda	s-gelemem	Gelemem.
+tr	Yelda	s-neden	Neden?
+tr	Yelda	s-bilmiyorum	Bilmiyorum.
+tr	Yelda	s-dinlen	Dinlenmelisin. Su içmelisin. Öğlen koşmamalısın.
+tr	Yelda	s-nelazim	Buyurun, ne lazım?
+tr	Yelda	s-lazim	Lazım.
+tr	Yelda	s-sarj	Bana şarj aleti lazım.
+tr	Yelda	s-sigorta	Sağlık sigortası?
+tr	Yelda	s-sonra	Sonra getirebilirim.
+tr	Yelda	s-sart	Şart.
+tr	Yelda	s-zorunda-kaldim	Zorunda kaldım.
+tr	Yelda	s-emre	Emre nerede?
+tr	Yelda	s-uyuyor-olabilir	Uyuyor olabilir.
+tr	Yelda	s-uyumus-olmali	Uyumuş olmalı.
+tr	Yelda	s-neoldu	Ne oldu?
+tr	Yelda	s-bekleyebilir	Bekleyebilir misiniz?
+tr	Yelda	s-pasaport	Pasaportunuzu görebilir miyim?
+tr	Yelda	t-gelebilirim	Gelebilirim.
+tr	Yelda	t-gelemem	Gelemem.
+tr	Yelda	t-gelmeyebilirim	Gelmeyebilirim.
+tr	Yelda	k-0	Gidebilirsin.
+tr	Yelda	k-1	Gitsen iyi olur.
+tr	Yelda	k-2	Gitmelisin.
+tr	Yelda	k-3	Gitmen lazım.
+tr	Yelda	k-4	Gitmek zorundasın.
+tr	Yelda	k-5	Gitmen şart.
+tr	Yelda	e-0	Evde olabilir.
+tr	Yelda	e-1	Evde olmalı.
+tr	Yelda	e-2	Eve gitmiş olmalı.
+tr	Yelda	e-3	Yorgun olmalısın.
+tr	Yelda	e-4	Olabilir.
+tr	Yelda	o-olur	Olur.
+tr	Yelda	o-olmaz	Olmaz.
+tr	Yelda	o-olurmu	Olur mu?
+tr	Yelda	o-yapsam	Pencereyi açsam olur mu?
+tr	Yelda	o-gerekyok	Gerek yok, teşekkürler.
+tr	Yelda	o-lazimdegil	Lazım değil.
+tr	Yelda	r-gitmem-gerek	Gitmem gerekiyor.
+tr	Yelda	r-pasaport-sart	Pasaport şart.
+tr	Yelda	r-girebilir	Girebilir miyim?
+tr	Yelda	r-yardim	Yardım edebilir misiniz?
+tr	Yelda	r-gelmemeli	Gelmemelisin.
+tr	Yelda	r-yurume	Yürümek zorunda kaldım.
+tr	Yelda	s-merhaba	Merhaba.
+tr	Yelda	q-1	Bekleyebilir misiniz?
+tr	Yelda	q-2	Gelemem.
+tr	Yelda	q-3	Gelmeyebilirim.
+tr	Yelda	q-4	Dinlenmelisin.
+tr	Yelda	q-5	Bana su lazım.
+tr	Yelda	q-6	Sağlık sigortası şart.
+tr	Yelda	q-7	Yürümek zorunda kaldım.
+tr	Yelda	q-8	Uyumuş olmalı.
+tr	Yelda	l-bana-su-lazim	Bana su lazım.
+tr	Yelda	l-bana-su-gerek	Bana su gerek.
+tr	Yelda	l-bana-taksi-lazim	Bana bir taksi lazım.
+tr	Yelda	l-bana-taksi-gerek	Bana bir taksi gerek.
+tr	Yelda	l-bana-yardim-lazim	Bana yardım lazım.
+tr	Yelda	l-bana-yardim-gerek	Bana yardım gerek.
+tr	Yelda	l-bana-sarj-lazim	Bana şarj aleti lazım.
+tr	Yelda	l-bana-sarj-gerek	Bana şarj aleti gerek.
+tr	Yelda	l-bana-zaman-lazim	Bana biraz zaman lazım.
+tr	Yelda	l-bana-zaman-gerek	Bana biraz zaman gerek.
+tr	Yelda	l-bana-kahve-lazim	Bana bir kahve lazım.
+tr	Yelda	l-bana-kahve-gerek	Bana bir kahve gerek.
+tr	Yelda	l-sana-su-lazim	Sana su lazım.
+tr	Yelda	l-sana-su-gerek	Sana su gerek.
+tr	Yelda	l-sana-taksi-lazim	Sana bir taksi lazım.
+tr	Yelda	l-sana-taksi-gerek	Sana bir taksi gerek.
+tr	Yelda	l-sana-yardim-lazim	Sana yardım lazım.
+tr	Yelda	l-sana-yardim-gerek	Sana yardım gerek.
+tr	Yelda	l-sana-sarj-lazim	Sana şarj aleti lazım.
+tr	Yelda	l-sana-sarj-gerek	Sana şarj aleti gerek.
+tr	Yelda	l-sana-zaman-lazim	Sana biraz zaman lazım.
+tr	Yelda	l-sana-zaman-gerek	Sana biraz zaman gerek.
+tr	Yelda	l-sana-kahve-lazim	Sana bir kahve lazım.
+tr	Yelda	l-sana-kahve-gerek	Sana bir kahve gerek.
+tr	Yelda	l-ona-su-lazim	Ona su lazım.
+tr	Yelda	l-ona-su-gerek	Ona su gerek.
+tr	Yelda	l-ona-taksi-lazim	Ona bir taksi lazım.
+tr	Yelda	l-ona-taksi-gerek	Ona bir taksi gerek.
+tr	Yelda	l-ona-yardim-lazim	Ona yardım lazım.
+tr	Yelda	l-ona-yardim-gerek	Ona yardım gerek.
+tr	Yelda	l-ona-sarj-lazim	Ona şarj aleti lazım.
+tr	Yelda	l-ona-sarj-gerek	Ona şarj aleti gerek.
+tr	Yelda	l-ona-zaman-lazim	Ona biraz zaman lazım.
+tr	Yelda	l-ona-zaman-gerek	Ona biraz zaman gerek.
+tr	Yelda	l-ona-kahve-lazim	Ona bir kahve lazım.
+tr	Yelda	l-ona-kahve-gerek	Ona bir kahve gerek.
+tr	Yelda	l-bize-su-lazim	Bize su lazım.
+tr	Yelda	l-bize-su-gerek	Bize su gerek.
+tr	Yelda	l-bize-taksi-lazim	Bize bir taksi lazım.
+tr	Yelda	l-bize-taksi-gerek	Bize bir taksi gerek.
+tr	Yelda	l-bize-yardim-lazim	Bize yardım lazım.
+tr	Yelda	l-bize-yardim-gerek	Bize yardım gerek.
+tr	Yelda	l-bize-sarj-lazim	Bize şarj aleti lazım.
+tr	Yelda	l-bize-sarj-gerek	Bize şarj aleti gerek.
+tr	Yelda	l-bize-zaman-lazim	Bize biraz zaman lazım.
+tr	Yelda	l-bize-zaman-gerek	Bize biraz zaman gerek.
+tr	Yelda	l-bize-kahve-lazim	Bize bir kahve lazım.
+tr	Yelda	l-bize-kahve-gerek	Bize bir kahve gerek.
+tr	Yelda	l-size-su-lazim	Size su lazım.
+tr	Yelda	l-size-su-gerek	Size su gerek.
+tr	Yelda	l-size-taksi-lazim	Size bir taksi lazım.
+tr	Yelda	l-size-taksi-gerek	Size bir taksi gerek.
+tr	Yelda	l-size-yardim-lazim	Size yardım lazım.
+tr	Yelda	l-size-yardim-gerek	Size yardım gerek.
+tr	Yelda	l-size-sarj-lazim	Size şarj aleti lazım.
+tr	Yelda	l-size-sarj-gerek	Size şarj aleti gerek.
+tr	Yelda	l-size-zaman-lazim	Size biraz zaman lazım.
+tr	Yelda	l-size-zaman-gerek	Size biraz zaman gerek.
+tr	Yelda	l-size-kahve-lazim	Size bir kahve lazım.
+tr	Yelda	l-size-kahve-gerek	Size bir kahve gerek.
+tr	Yelda	l-onlara-su-lazim	Onlara su lazım.
+tr	Yelda	l-onlara-su-gerek	Onlara su gerek.
+tr	Yelda	l-onlara-taksi-lazim	Onlara bir taksi lazım.
+tr	Yelda	l-onlara-taksi-gerek	Onlara bir taksi gerek.
+tr	Yelda	l-onlara-yardim-lazim	Onlara yardım lazım.
+tr	Yelda	l-onlara-yardim-gerek	Onlara yardım gerek.
+tr	Yelda	l-onlara-sarj-lazim	Onlara şarj aleti lazım.
+tr	Yelda	l-onlara-sarj-gerek	Onlara şarj aleti gerek.
+tr	Yelda	l-onlara-zaman-lazim	Onlara biraz zaman lazım.
+tr	Yelda	l-onlara-zaman-gerek	Onlara biraz zaman gerek.
+tr	Yelda	l-onlara-kahve-lazim	Onlara bir kahve lazım.
+tr	Yelda	l-onlara-kahve-gerek	Onlara bir kahve gerek.

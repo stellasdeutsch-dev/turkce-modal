@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Модальные конструкции в турецком — Alterna Timur</title>
+<meta name="description" content="Могу, надо, вынужден и «şart» по-турецки: -ebilir, -meli, lazım, gerek, zorunda. Истории, конструктор форм с озвучкой, шкала обязательности, тест. Плюс платформа Alterna Timur A0 → C1.">
+<meta property="og:title" content="От «хочу» до «могу» по-турецки — модальные конструкции">
+<meta property="og:description" content="-ebilir, -meli, lazım, gerek, zorunda, şart. Истории, тренажёр с озвучкой и тест.">
+<meta property="og:image" content="media/video/grammar.jpg">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230a0a0a'/%3E%3Ctext x='16' y='23' font-family='Arial Narrow,Arial' font-size='18' font-weight='700' text-anchor='middle' fill='%23f6f10b'%3E%5BA%5D%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<div class="prog" id="prog"></div>
+<div class="cursor-dot" id="cur"></div>
+<canvas id="confetti"></canvas>
+
+<!-- ============ ВЕРХНЯЯ ПАНЕЛЬ ============ -->
+<header class="bar">
+  <a href="#top" class="logo" aria-label="Alterna Timur"><b>ALTERNA</b><small>TIMUR · TÜRKÇE</small></a>
+  <nav aria-label="Разделы">
+    <a href="#ebil">Могу</a><a href="#meli">Должен</a><a href="#lazim">Надо</a><a href="#zorunda">Вынужден</a>
+    <a href="#scale">Шкала</a><a href="#lab">Конструктор</a><a href="#test">Тест</a><a href="#platform">Платформа</a>
+  </nav>
+  <a class="br" href="#price">Доступ</a>
+  <button class="burger" id="burger" aria-label="Меню"><i></i></button>
+</header>
+<div class="menu" id="menu" aria-hidden="true">
+  <button class="x" id="menuX" aria-label="Закрыть">×</button>
+  <a href="#ebil">Могу <span>01</span></a>
+  <a href="#meli">Должен <span>02</span></a>
+  <a href="#lazim">Надо <span>03</span></a>
+  <a href="#zorunda">Вынужден <span>04</span></a>
+  <a href="#scale">Шкала <span>05</span></a>
+  <a href="#lab">Конструктор <span>06</span></a>
+  <a href="#test">Тест <span>09</span></a>
+  <a href="#platform">Платформа <span>→</span></a>
+  <a class="br big" href="#price">Забрать доступ · $30</a>
+</div>
+
+<main id="top">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <svg class="scene" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#b9b9b5"/><stop offset=".5" stop-color="#d9d9d5"/><stop offset="1" stop-color="#ececea"/>
+      </linearGradient>
+      <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="34"/></filter>
+      <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".018" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="22"/></filter>
+      <radialGradient id="dust" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    </defs>
+    <rect width="1440" height="900" fill="url(#sky)"/>
+    <g id="far" opacity=".55">
+      <path fill="#a2a29e" d="M0 470 L120 420 L210 440 L330 360 L430 410 L560 330 L660 390 L770 350 L900 420 L1010 370 L1130 430 L1260 380 L1440 440 L1440 900 L0 900Z"/>
+      <path fill="#b8b8b4" d="M0 540 L160 480 L300 520 L470 450 L620 510 L800 460 L980 520 L1150 470 L1300 520 L1440 490 L1440 900 L0 900Z"/>
+    </g>
+    <g filter="url(#blur)" class="fogs">
+      <ellipse cx="300" cy="420" rx="420" ry="80" fill="#fff" opacity=".8"><animate attributeName="cx" values="300;520;300" dur="38s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="1100" cy="380" rx="380" ry="70" fill="#fff" opacity=".7"><animate attributeName="cx" values="1100;880;1100" dur="44s" repeatCount="indefinite"/></ellipse>
+      <ellipse cx="720" cy="500" rx="520" ry="60" fill="#fff" opacity=".6"><animate attributeName="cx" values="720;900;720" dur="30s" repeatCount="indefinite"/></ellipse>
+    </g>
+    <path id="slope" filter="url(#rough)" fill="#0c0c0c" d="M-60 150 L1500 1040 L1500 1100 L-60 1100Z"/>
+    <g id="dustg" opacity=".55">
+      <ellipse cx="820" cy="640" rx="36" ry="10" fill="url(#dust)"><animate attributeName="opacity" values=".2;.8;.2" dur="1.6s" repeatCount="indefinite"/></ellipse>
+    </g>
+    <!-- путник: смотрит влево, вверх по склону -->
+    <g id="climber" transform="translate(760 588) scale(1.7)">
+      <g fill="#0c0c0c" stroke="#0c0c0c" stroke-linecap="round" stroke-linejoin="round">
+        <g class="leg-b"><path d="M-1 -30 L4 -15 L9 3" fill="none" stroke-width="6"/><animateTransform attributeName="transform" type="rotate" values="-14 -1 -30;12 -1 -30;-14 -1 -30" dur="1.3s" repeatCount="indefinite"/></g>
+        <path d="M-7 -56 L6 -55 L5 -30 L-6 -29 Z" stroke-width="2"/>
+        <rect x="3" y="-56" width="12" height="22" rx="3" stroke-width="1"/>
+        <circle cx="-4" cy="-63" r="6.5" stroke-width="0"/>
+        <path d="M-9 -66 Q-4 -73 2 -66" fill="none" stroke-width="2"/>
+        <g class="leg-f"><path d="M-2 -30 L-10 -18 L-15 -8" fill="none" stroke-width="6"/><animateTransform attributeName="transform" type="rotate" values="12 -2 -30;-12 -2 -30;12 -2 -30" dur="1.3s" repeatCount="indefinite"/></g>
+        <g class="arm"><animateTransform attributeName="transform" type="rotate" values="-6 -5 -51;8 -5 -51;-6 -5 -51" dur="1.3s" repeatCount="indefinite"/><path d="M-5 -51 L-12 -41 L-17 -36" fill="none" stroke-width="4"/><path d="M-17 -36 L-23 -4" fill="none" stroke-width="1.6"/></g>
+      </g>
+    </g>
+  </svg>
+  <div class="tags"><span class="lbl">Гайд · B1</span><span class="lbl">Модальность</span><span class="lbl">12 минут</span></div>
+  <div class="wrap in">
+    <h1 class="disp"><span class="ln"><span>Самый короткий путь</span></span><span class="ln"><span>от «хочу»</span></span><span class="ln"><span>до «могу»</span></span></h1>
+    <p class="sub">Модальные конструкции в турецком: <b>-ebilir, -meli, lazım, gerek, zorunda, şart</b>. Как сказать «могу», «надо», «вынужден» и «без вариантов». С историями, озвучкой и тренажёром.</p>
+    <div class="row">
+      <a class="br big" href="#start">Начать разбор</a>
+      <span class="lbl">Antalya · Akdeniz · 2026</span>
+    </div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"></div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="sec" id="about">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ О ЧЁМ ЭТО ]</span><span class="lbl">Для кого гайд</span></div>
+    <p class="bigtext" data-words>Для тех, кто уже говорит «я иду», но застревает на «мне надо идти», «я не могу прийти» и «вам придётся подождать».</p>
+    <div class="twocol">
+      <div class="rv"><h4>[ Проблема ]</h4><p>В русском «могу», «надо», «должен» — отдельные слова. Поставил перед глаголом — готово. В турецком половина из них прячется внутри глагола, а вторая половина стоит в конце и требует, чтобы глагол сначала превратился в существительное. Отсюда «Ben su lazım» и пустой взгляд продавца.</p></div>
+      <div class="rv rv-d1"><h4>[ Решение ]</h4><p>Шесть конструкций, разложенных по силе: от «можешь» до «без этого никак». К каждой — история, формула, озвучка. Потом конструктор на 384 формы, шкала обязательности и тест из восьми ситуаций. Двенадцать минут — и «надо» по-турецки перестаёт быть проблемой.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ЛЕС / ИМЯ ============ -->
+<section class="forest" id="forest">
+  <svg class="trees" id="trees" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMax slice" aria-hidden="true"></svg>
+  <div class="wrap in">
+    <p class="lead" data-words>Турецкий не спрашивает, хочешь ли ты. Он спрашивает, можешь, должен или вынужден. И на каждый ответ у него свой суффикс.</p>
+    <p class="side rv">Этот разбор — один из 128 гайдов платформы Alterna Timur. Здесь он целиком и бесплатно. Внизу — что ещё лежит рядом.</p>
+    <div class="giant" aria-hidden="true">MODALLİK</div>
+  </div>
+</section>
+
+<!-- ============ ИНТРО ТИМУРА ============ -->
+<section class="sec" id="start">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 00 ]</span><span class="lbl">Кто рассказывает</span></div>
+    <div class="intro">
+      <div class="story rv">
+        <p>Всем привет. Меня зовут Тимур. Мне 22 года. Я живу в Анталье. Учусь на электроинженера в университете Акдениз.</p>
+        <p>Турецкий я учил год в TÖMER. Сейчас у меня C1.</p>
+        <p>А в первый день у меня было одно слово. <span class="tr" data-say="s-merhaba">Merhaba</span>.</p>
+        <p>Сегодня — модальность. Звучит как кафедра лингвистики. На деле это «могу», «надо» и «без вариантов».</p>
+        <p>Без них в Турции можно только здороваться. Долго. Со всеми.</p>
+        <p class="end">Поехали.</p>
+      </div>
+      <div class="stats">
+        <div class="stat rv"><div class="n" data-count="6">0</div><span class="lbl">конструкций: от «можешь» до «şart»</span></div>
+        <div class="stat rv rv-d1"><div class="n" data-count="384">0</div><span class="lbl">форм в конструкторе</span></div>
+        <div class="stat rv rv-d2"><div class="n" data-count="500">0</div><span class="lbl">озвученных фраз</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="marq" aria-hidden="true" lang="tr"><div class="track" id="marq"></div></div>
+
+<!-- ============ МЫ ПОНИМАЕМ / ОГЛАВЛЕНИЕ ============ -->
+<section class="sec" id="toc">
+  <div class="wrap">
+    <div class="challenge">
+      <div class="crumple rv"><div class="inside">[ ? ]</div></div>
+      <div>
+        <span class="lbl">Мы понимаем</span>
+        <h2 class="disp rv"><span class="mask"><span>Где именно</span></span><span class="mask"><span>ты спотыкаешься</span></span></h2>
+        <p class="p rv">Десять остановок. Идём по порядку или прыгаем туда, где болит.</p>
+      </div>
+    </div>
+    <nav class="toc" aria-label="Оглавление">
+      <a href="#ebil" class="rv"><span class="n">01</span><span><b lang="tr">-abil / -ebil</b><small>Могу, можно, «не могли бы вы»</small></span><span class="arr">↘</span></a>
+      <a href="#meli" class="rv"><span class="n">02</span><span><b lang="tr">-malı / -meli</b><small>Стоит, должен, «тебе бы отдохнуть»</small></span><span class="arr">↘</span></a>
+      <a href="#lazim" class="rv"><span class="n">03</span><span><b lang="tr">lazım · gerek</b><small>Надо и нужно. Две конструкции, одна ловушка</small></span><span class="arr">↘</span></a>
+      <a href="#zorunda" class="rv"><span class="n">04</span><span><b lang="tr">zorunda · şart</b><small>Вынужден и «без этого никак»</small></span><span class="arr">↘</span></a>
+      <a href="#scale" class="rv"><span class="n">05</span><span><b>Шкала обязательности</b><small>Шесть ступеней одной горы</small></span><span class="arr">↘</span></a>
+      <a href="#lab" class="rv"><span class="n">06</span><span><b>Конструктор</b><small>8 глаголов × 8 режимов × 6 лиц, с озвучкой</small></span><span class="arr">↘</span></a>
+      <a href="#tahmin" class="rv"><span class="n">07</span><span><b lang="tr">olabilir · olmalı</b><small>Когда модальность — это догадка</small></span><span class="arr">↘</span></a>
+      <a href="#olur" class="rv"><span class="n">08</span><span><b lang="tr">Olur · Olmaz</b><small>Три слова, которые заменяют половину</small></span><span class="arr">↘</span></a>
+      <a href="#test" class="rv"><span class="n">09</span><span><b>Тест</b><small>Восемь ситуаций из жизни в Турции</small></span><span class="arr">↘</span></a>
+      <a href="#shpora" class="rv"><span class="n">10</span><span><b>Шпаргалка</b><small>Всё на одном экране</small></span><span class="arr">↘</span></a>
+    </nav>
+  </div>
+</section>
+
+<!-- ============ 01 · -EBİL ============ -->
+<section class="sec chap" id="ebil">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 01 ]</span><span class="lbl">Могу · можно · не могли бы вы</span></div>
+    <h2 class="disp rv"><span class="mask"><span lang="tr">-abil / -ebil</span></span><span class="mask"><span class="y">Могу</span></span></h2>
+    <p class="kicker rv">Один суффикс на «могу», «умею», «можно» и «может быть». Удобно. Пока не попробуешь сказать «не могу».</p>
+    <div class="split">
+      <div class="story rv">
+        <p>У меня был TÖMER. В TÖMER была доска. У доски стояла Ханде-ходжа.</p>
+        <p>Первая неделя. Ханде-ходжа смотрит на меня и говорит, <span class="tr" data-say="s-gelebilirmisin">Timur, gelebilir misin?</span></p>
+        <p>Я знаю gel. Gel — это «иди сюда». Остальное — шум.</p>
+        <p>Говорю, <span class="tr" data-say="s-gelemem">gelemem</span>.</p>
+        <p>Она говорит, <span class="tr" data-say="s-neden">neden?</span></p>
+        <p>Говорю, <span class="tr" data-say="s-bilmiyorum">bilmiyorum</span>.</p>
+        <p>Класс смеётся. Я тоже смеюсь. Все смеются — и я смеюсь.</p>
+        <p>Я хотел сказать «не понял вопрос». Сказал: «Подойти к доске не могу. Почему — сам не знаю».</p>
+        <p class="short">Доска была в трёх метрах.</p>
+        <p class="end">К доске я, кстати, вышел. Через неделю.</p>
+      </div>
+      <div>
+        <div class="card rv">
+          <span class="lbl">Формула</span>
+          <h3>Корень + (y) + <span lang="tr">abil/ebil + ir</span> + лицо</h3>
+          <div class="formula"><span class="s">gel</span><i>+</i><span class="k">ebil</span><i>+</i><span>ir</span><i>+</i><span>im</span><i>=</i><span class="k">gelebilirim</span></div>
+          <ul style="margin-top:14px">
+            <li><b>a</b> или <b>e</b> — по последней гласной корня: yap<b>a</b>bilirim, gel<b>e</b>bilirim.</li>
+            <li>Корень на гласную — вставляем <b>y</b>: oku<b>y</b>abilirim, bekle<b>y</b>ebilirim.</li>
+            <li>git и et перед гласной меняют t на d: gi<b>d</b>ebilirim, yardım e<b>d</b>ebilirim.</li>
+            <li>Сам <b>-bil-</b> не меняется никогда. Всегда -bilir-.</li>
+          </ul>
+        </div>
+        <div class="card rv">
+          <span class="lbl">Главная ловушка — три похожих слова</span>
+          <p>Нажми на карточку. У меня в первую неделю эти три слова слились в одно.</p>
+          <div class="trio" id="trio">
+            <div class="flip" data-say="t-gelebilirim"><div class="f"><span class="hint">Карточка 1</span><span class="w">gel<u>ebil</u>irim</span><span class="hint">нажми ↻</span></div><div class="b"><span class="w">Могу прийти</span><p>Или «может, приду». Возможность, способность, разрешение.</p></div></div>
+            <div class="flip" data-say="t-gelemem"><div class="f"><span class="hint">Карточка 2</span><span class="w">gel<u>eme</u>m</span><span class="hint">нажми ↻</span></div><div class="b"><span class="w">Не могу прийти</span><p>bil исчез. Отрицание «могу» — это -ama/-eme плюс аорист. Никаких «gelebilmem».</p></div></div>
+            <div class="flip" data-say="t-gelmeyebilirim"><div class="f"><span class="hint">Карточка 3</span><span class="w">gel<u>me</u>yebilirim</span><span class="hint">нажми ↻</span></div><div class="b"><span class="w">Могу не прийти</span><p>«Может, не приду». Отрицание стоит до -ebil, а не вместо него.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="split" style="margin-top:44px">
+      <div class="quote rv">
+        <p>В консульстве в Анталье я стажировался. За месяц сказал «<span lang="tr">Bekleyebilir misiniz?</span>» раз двести.</p>
+        <span class="lbl">Приказов там не отдают. Там всё через -ebilir misiniz.</span>
+      </div>
+      <div class="rv">
+        <span class="lbl" style="display:block;margin-bottom:10px">-ebilir + вопрос = вежливость. Нажми, чтобы услышать</span>
+        <div class="says">
+          <button class="say" data-say="s-bekleyebilir">Bekleyebilir misiniz?<small>Не могли бы вы подождать?</small></button>
+          <button class="say" data-say="s-pasaport">Pasaportunuzu görebilir miyim?<small>Можно ваш паспорт?</small></button>
+          <button class="say" data-say="r-girebilir">Girebilir miyim?<small>Можно войти?</small></button>
+          <button class="say" data-say="r-yardim">Yardım edebilir misiniz?<small>Не могли бы вы помочь?</small></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 · -MELİ ============ -->
+<section class="sec chap fog" id="meli">
+  <div class="clouds" aria-hidden="true"><i style="width:70vw;height:30vw;left:-20vw;top:5%"></i><i style="width:60vw;height:26vw;right:-10vw;top:55%;animation-duration:52s"></i></div>
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 02 ]</span><span class="lbl">Стоит · должен · тебе бы</span></div>
+    <h2 class="disp rv"><span class="mask"><span lang="tr">-malı / -meli</span></span><span class="mask"><span class="y">Должен</span></span></h2>
+    <p class="kicker rv">Совет врача, мамин голос в голове, внутренний долг. Не закон, не обстоятельства. Просто «так будет правильно».</p>
+    <div class="split">
+      <div class="story rv">
+        <p>В Анталье в июле +42. Я решил бегать. В обед.</p>
+        <p>На третий день я сидел у врача.</p>
+        <p>Врач смотрит на меня. На градусник. Опять на меня.</p>
+        <p>Говорит, <span class="tr" data-say="s-dinlen">dinlenmelisin. Su içmelisin. Öğlen koşmamalısın.</span></p>
+        <p>Говорю, tamam.</p>
+        <p>Он говорит, dışarıda kaç derece, biliyor musun?</p>
+        <p>Говорю, biliyorum.</p>
+        <p>Он говорит, o zaman neden?</p>
+        <p>Говорю, закалка.</p>
+        <p class="short">Три <span lang="tr">-meli</span> в одном предложении. Врач был прав трижды.</p>
+        <p class="end">Бегать я, кстати, не бросил. Бегаю в шесть утра.</p>
+      </div>
+      <div>
+        <div class="card rv">
+          <span class="lbl">Формула</span>
+          <h3>Корень + <span lang="tr">malı/meli</span> + лицо</h3>
+          <div class="formula"><span class="s">git</span><i>+</i><span class="k">meli</span><i>+</i><span>yim</span><i>=</i><span class="k">gitmeliyim</span></div>
+          <ul style="margin-top:14px">
+            <li>Начинается с согласной — никаких буферов и никаких t → d. Самый послушный суффикс.</li>
+            <li>Лица: -yım / -sın / — / -yız / -sınız / -lar. yapmalıyım, yapmalısın, yapmalı.</li>
+            <li>Отрицание — перед ним: gel<b>me</b>melisin, «тебе не стоит приходить».</li>
+            <li>Бонус: «Yorgun olmalısın» — не «ты обязан устать», а «ты, должно быть, устал». Об этом в главе 07.</li>
+          </ul>
+        </div>
+        <div class="says rv" style="margin-top:14px">
+          <button class="say" data-say="s-dinlen">Dinlenmelisin. Su içmelisin.<small>Тебе надо отдохнуть. Надо пить воду.</small></button>
+          <button class="say" data-say="r-gelmemeli">Gelmemelisin.<small>Тебе не стоит приходить.</small></button>
+          <button class="say" data-say="e-3">Yorgun olmalısın.<small>Ты, наверное, устал.</small></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 · LAZIM / GEREK ============ -->
+<section class="sec chap" id="lazim">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 03 ]</span><span class="lbl">Надо · нужно · не надо</span></div>
+    <h2 class="disp rv"><span class="mask"><span lang="tr">lazım · gerek</span></span><span class="mask"><span class="y">Надо</span></span></h2>
+    <p class="kicker rv">Самое частое слово в турецком магазине. И самое частое место, где русскоязычные ломаются.</p>
+    <div class="split">
+      <div class="story rv">
+        <p>В первый месяц у меня сел телефон. Телефон — это карта, переводчик и мама.</p>
+        <p>Захожу в магазин электроники. Продавец говорит, <span class="tr" data-say="s-nelazim">buyurun, ne lazım?</span></p>
+        <p>Слово «зарядка» я не знаю. Знаю lazım.</p>
+        <p>Говорю, <span class="tr" data-say="s-lazim">lazım</span>. И показываю телефон.</p>
+        <p>Он говорит, ne lazım? Говорю, lazım. Показываю телефон сильнее.</p>
+        <p>Он смотрит на меня, как на телефон. Потом берёт зарядку и говорит медленно, по слогам:</p>
+        <p class="short"><span class="tr" lang="tr" data-say="s-sarj">Bana şarj aleti lazım.</span></p>
+        <p>Говорю, bana şarj aleti lazım. Он говорит, aferin.</p>
+        <p class="end">Зарядку я купил. Фразу — тоже. Её мне отдали бесплатно.</p>
+      </div>
+      <div>
+        <div class="card rv">
+          <span class="lbl">Конструкция 1 · нужна вещь</span>
+          <h3>Кому (дательный) + что + <span lang="tr">lazım</span></h3>
+          <div class="formula"><span class="k">Bana</span><i>+</i><span class="s">su</span><i>+</i><span>lazım</span></div>
+          <p style="margin-top:10px">Не «я нуждаюсь», а «мне нужно». Как в русском: <b>мне</b>, а не <b>я</b>. Bana, sana, ona, bize, size, onlara.</p>
+        </div>
+        <div class="card rv">
+          <span class="lbl">Конструкция 2 · нужно действие</span>
+          <h3>Глагол + <span lang="tr">ma/me</span> + «чей» + <span lang="tr">lazım</span></h3>
+          <div class="formula"><span class="s">git</span><i>+</i><span class="k">me</span><i>+</i><span>m</span><i>+</i><span>lazım</span><i>=</i><span class="k">gitmem lazım</span></div>
+          <p style="margin-top:10px">Глагол превращается в существительное «хождение» и получает хозяина: gitme<b>m</b> — «моё хождение». Буквально: «моё хождение нужно». (Benim) gitmem, gitmen, gitmesi, gitmemiz, gitmeniz, gitmeleri lazım.</p>
+        </div>
+        <div class="card rv">
+          <span class="lbl">lazım или gerek</span>
+          <ul>
+            <li><b>lazım</b> — разговорное, в магазине и на улице.</li>
+            <li><b>gerek</b> — то же, чуть нейтральнее. <b>gerekiyor</b> — «вот сейчас надо».</li>
+            <li><b>gerek yok</b> — не надо. <b>lazım değil</b> — не нужно.</li>
+          </ul>
+          <div class="says" style="margin-top:12px">
+            <button class="say" data-say="r-gitmem-gerek">Gitmem gerekiyor.<small>Мне надо идти (прямо сейчас).</small></button>
+            <button class="say" data-say="o-gerekyok">Gerek yok, teşekkürler.<small>Не надо, спасибо. Пакет на кассе — это сюда.</small></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="builder rv" id="lz" style="margin-top:44px">
+      <span class="lbl" style="display:block;margin-bottom:14px">Собери фразу из магазина электроники · нажми на куски</span>
+      <div class="split">
+        <div>
+          <div class="step"><span class="lbl">1 · Кому</span><div class="chips" id="lzWho" lang="tr"></div></div>
+          <div class="step"><span class="lbl">2 · Что</span><div class="chips" id="lzWhat" lang="tr"></div></div>
+          <div class="step"><span class="lbl">3 · Каким словом</span><div class="chips" id="lzHow" lang="tr"></div></div>
+          <div class="step"><span class="lbl">Ловушка</span><div class="chips"><button class="chip" id="lzTrap" lang="tr">Ben su lazım?</button></div></div>
+        </div>
+        <div class="out" id="lzOut">
+          <button class="play-btn" id="lzPlay" aria-label="Послушать"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg></button>
+          <div class="sent" id="lzSent"></div>
+          <div class="ru" id="lzRu"></div>
+          <div class="warn" id="lzWarn"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 · ZORUNDA / ŞART ============ -->
+<section class="sec chap" id="zorunda">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 04 ]</span><span class="lbl">Вынужден · обязательно · стена</span></div>
+    <h2 class="disp rv"><span class="mask"><span lang="tr">zorunda · şart</span></span><span class="mask"><span class="y">Без вариантов</span></span></h2>
+    <p class="kicker rv">Когда решаешь не ты. Решают обстоятельства, миграционная служба и окно номер семь.</p>
+    <div class="split">
+      <div class="story rv">
+        <p>У меня был ikamet. Точнее, не было. Его надо было продлить.</p>
+        <p>Göç İdaresi. Миграционная служба. Очередь, талончик, окно номер семь.</p>
+        <p>Мужчина в окне листает мои документы. Говорит, <span class="tr" data-say="s-sigorta">sağlık sigortası?</span></p>
+        <p>Говорю, <span class="tr" data-say="s-sonra">sonra getirebilirim</span>.</p>
+        <p>Он говорит, <span class="tr" data-say="s-sart">şart</span>.</p>
+        <p>Говорю, yarın getirebilirim.</p>
+        <p>Он говорит, şart.</p>
+        <p>Говорю, bir hafta içinde…</p>
+        <p>Он говорит, şart. И отдаёт документы.</p>
+        <p class="short">Я понял: şart — это не слово. Это стена.</p>
+        <p class="end">Страховку я сделал в тот же день. Пришлось. <span class="tr" data-say="s-zorunda-kaldim">Zorunda kaldım.</span></p>
+      </div>
+      <div>
+        <div class="card rv">
+          <span class="lbl">zorunda · «вынужден»</span>
+          <h3>Глагол + <span lang="tr">mak/mek + zorunda</span> + лицо</h3>
+          <div class="formula"><span class="s">bekle</span><i>+</i><span class="k">mek</span><i>+</i><span>zorunda</span><i>+</i><span>yım</span></div>
+          <p style="margin-top:10px">Выбора нет, давят обстоятельства. <b>zorunda kaldım</b> — «пришлось». Самая частая форма в рассказах про бюрократию.</p>
+          <div class="says" style="margin-top:12px"><button class="say" data-say="r-yurume">Yürümek zorunda kaldım.<small>Пришлось идти пешком. (Автобус ушёл.)</small></button></div>
+        </div>
+        <div class="card rv">
+          <span class="lbl">şart · «обязательное условие»</span>
+          <h3>Что-то + <span lang="tr">şart</span> · глагол-ma + «чей» + <span lang="tr">şart</span></h3>
+          <p>Строится как lazım, а весит в десять раз больше. <b>Pasaport şart</b> — без паспорта даже не начинай. <b>Gitmen şart</b> — идти обязательно, обсуждение закрыто.</p>
+          <div class="says" style="margin-top:12px"><button class="say" data-say="r-pasaport-sart">Pasaport şart.<small>Паспорт обязателен.</small></button></div>
+        </div>
+        <div class="card y rv">
+          <span class="lbl" style="color:#3a3a10">Разница за три секунды</span>
+          <p><b>lazım</b> — тебе надо. <b>zorunda</b> — тебя заставили. <b>şart</b> — без этого не будет ничего.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 · ШКАЛА ============ -->
+<section class="sec chap" id="scale">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 05 ]</span><span class="lbl">Одно действие · шесть степеней</span></div>
+    <h2 class="disp rv"><span class="mask"><span>Шкала</span></span><span class="mask"><span class="y">обязательности</span></span></h2>
+    <p class="kicker rv">Один глагол — <span lang="tr">gitmek</span>, «идти». Двигай ползунок и смотри, как «можешь пойти» превращается в «идти обязательно». Чем выше путник, тем меньше у тебя выбора.</p>
+    <div class="mount rv" id="mount">
+      <svg id="mountSvg" viewBox="0 0 800 340" aria-hidden="true"></svg>
+      <div class="phrase">
+        <div class="w" id="scW">Gidebilirsin.</div>
+        <div class="ru" id="scRu"></div>
+        <div class="who"><div>Кто решает<b id="scWho"></b></div><div>Сила<b id="scPow"></b></div><div><button class="play-btn" id="scPlay" aria-label="Послушать"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg></button></div></div>
+      </div>
+      <div class="range">
+        <input type="range" min="0" max="5" step="1" value="0" id="scR" aria-label="Степень обязательности">
+        <div class="ticks" id="scT"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 · КОНСТРУКТОР ============ -->
+<section class="sec chap" id="lab">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 06 ]</span><span class="lbl">8 глаголов · 8 режимов · 6 лиц</span></div>
+    <h2 class="disp rv"><span class="mask"><span>Конструктор</span></span><span class="mask"><span class="y">384 формы</span></span></h2>
+    <p class="kicker rv">Выбери глагол, режим и лицо. Суффиксы падают кирпичами в правильном порядке, а внизу написано, почему именно так. Каждую форму можно послушать.</p>
+    <div class="lab rv">
+      <div>
+        <div class="step" style="margin-bottom:16px"><span class="lbl" style="display:block;margin-bottom:8px">Глагол</span><div class="chips" id="labV" lang="tr"></div></div>
+        <div class="step" style="margin-bottom:16px"><span class="lbl" style="display:block;margin-bottom:8px">Режим</span><div class="modes" id="labM"></div></div>
+        <div class="step"><span class="lbl" style="display:block;margin-bottom:8px">Лицо</span><div class="chips" id="labP" lang="tr"></div></div>
+      </div>
+      <div class="card" style="padding:22px">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
+          <span class="lbl" id="labTag">Сборка</span>
+          <button class="play-btn" id="labPlay" aria-label="Послушать"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M7 4l13 8-13 8z"/></svg></button>
+        </div>
+        <div class="blocks" id="labB"></div>
+        <div class="word" id="labW"></div>
+        <div class="ru" id="labRu"></div>
+        <div class="why" id="labWhy"></div>
+        <div class="conj" id="labC"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 · ДОГАДКА ============ -->
+<section class="sec chap fog" id="tahmin">
+  <div class="clouds" aria-hidden="true"><i style="width:80vw;height:30vw;left:-30vw;top:15%"></i><i style="width:60vw;height:24vw;right:-15vw;top:60%;animation-duration:48s"></i></div>
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 07 ]</span><span class="lbl">Наверное · наверняка · видимо, уже</span></div>
+    <h2 class="disp rv"><span class="mask"><span lang="tr">olabilir · olmalı</span></span><span class="mask"><span class="y">Догадка</span></span></h2>
+    <p class="kicker rv">Те же суффиксы, только теперь они говорят не о правах и обязанностях, а о том, насколько ты уверен.</p>
+    <div class="split">
+      <div class="story rv">
+        <p>У меня был сосед по общаге. Эмре. Эмре не отвечал на звонки.</p>
+        <p>Я звоню — тишина. Звоню ещё — тишина.</p>
+        <p>Пишу общему другу: <span class="tr" data-say="s-emre">Emre nerede?</span></p>
+        <p>Друг отвечает: <span class="tr" data-say="s-uyuyor-olabilir">uyuyor olabilir</span>.</p>
+        <p>Через час: <span class="tr" data-say="s-uyumus-olmali">uyumuş olmalı</span>.</p>
+        <p>Через три часа друг перестал отвечать тоже.</p>
+        <p>Эмре проснулся в шесть вечера. Говорит, <span class="tr" data-say="s-neoldu">ne oldu?</span></p>
+        <p class="short">Говорю, ничего. Мы тренировали модальность.</p>
+        <p class="end">Друг, кстати, тоже спал.</p>
+      </div>
+      <div class="card rv gauge">
+        <span class="lbl">Измеритель уверенности · нажми на фразу</span>
+        <svg viewBox="0 0 400 230" aria-hidden="true">
+          <path d="M40 200 A160 160 0 0 1 360 200" fill="none" stroke="rgba(0,0,0,.12)" stroke-width="22"/>
+          <path id="gArc" d="M40 200 A160 160 0 0 1 360 200" fill="none" stroke="#0c0c0c" stroke-width="22" stroke-dasharray="503" stroke-dashoffset="503" style="transition:stroke-dashoffset 1s var(--ease)"/>
+          <text x="40" y="226" font-family="Oswald" font-size="13" fill="#5d5d59">0%</text>
+          <text x="345" y="226" font-family="Oswald" font-size="13" fill="#5d5d59">100%</text>
+          <g id="needle"><line x1="200" y1="200" x2="200" y2="62" stroke="#0c0c0c" stroke-width="3"/><circle cx="200" cy="200" r="10" fill="#0c0c0c"/><circle cx="200" cy="200" r="4" fill="#f6f10b"/></g>
+          <text id="gPct" x="200" y="150" text-anchor="middle" font-family="Oswald" font-size="34" fill="#0c0c0c">—</text>
+        </svg>
+        <div class="read"><div class="w" id="gW">Evde olabilir.</div><div class="ru" id="gRu">Нажми на любую фразу ниже</div></div>
+        <div class="says" id="gBtns"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 08 · OLUR / OLMAZ ============ -->
+<section class="sec chap" id="olur">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 08 ]</span><span class="lbl">Разговорная модальность</span></div>
+    <h2 class="disp rv"><span class="mask"><span lang="tr">Olur · Olmaz</span></span><span class="mask"><span class="y">Три слова</span></span></h2>
+    <div class="split">
+      <div class="story rv">
+        <p>Половину модальности в живой речи турки закрывают тремя словами.</p>
+        <p><span class="tr" data-say="o-olur">Olur</span> — «можно», «ладно», «окей».</p>
+        <p><span class="tr" data-say="o-olmaz">Olmaz</span> — «нельзя», «ни за что», «так не пойдёт».</p>
+        <p><span class="tr" data-say="o-olurmu">Olur mu?</span> — «можно?», «ничего, если…?»</p>
+        <p>А с -sa получается самый мягкий вопрос в языке: <span class="tr" data-say="o-yapsam">Pencereyi açsam olur mu?</span> — «ничего, если я открою окно?»</p>
+        <p class="end">Короче, чем «Açabilir miyim?». И теплее.</p>
+      </div>
+      <div class="card rv">
+        <span class="lbl">Аудитория TÖMER · июнь · +38</span>
+        <div class="chat" id="chat"></div>
+        <div class="chips" id="chatBtns" style="margin-top:14px"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 09 · ТЕСТ ============ -->
+<section class="sec chap" id="test">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 09 ]</span><span class="lbl">Восемь ситуаций</span></div>
+    <h2 class="disp rv"><span class="mask"><span>Проверь</span></span><span class="mask"><span class="y">себя</span></span></h2>
+    <p class="kicker rv">Никаких «вставьте суффикс». Ситуация из жизни в Турции — выбираешь, что сказать.</p>
+    <div class="quiz rv" id="quiz"></div>
+  </div>
+</section>
+
+<!-- ============ 10 · ШПАРГАЛКА ============ -->
+<section class="sec chap" id="shpora">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ 10 ]</span><span class="lbl">Сохрани скриншот</span></div>
+    <h2 class="disp stages-title rv">Шпаргалка <span class="gray">&amp; порядок</span></h2>
+    <div class="stages">
+      <div class="stage rv"><h3 lang="tr">-abil / -ebil</h3><span class="lbl">Могу · можно</span><div class="big">gelebilirim</div><p>Возможность, умение, разрешение. С вопросом — вежливая просьба: Bekleyebilir misiniz?</p></div>
+      <div class="stage rv rv-d1"><h3 lang="tr">-ama / -eme</h3><span class="lbl">Не могу</span><div class="big">gelemem</div><p>bil исчезает. gelemem, gelemezsin, gelemez. Никаких «gelebilmem».</p></div>
+      <div class="stage rv rv-d2"><h3 lang="tr">-ma + yabil</h3><span class="lbl">Могу не · может, не</span><div class="big">gelmeyebilirim</div><p>Отрицание перед -ebil. «Может, не приду» — вежливый способ не обещать.</p></div>
+      <div class="stage rv rv-d3"><h3 lang="tr">-malı / -meli</h3><span class="lbl">Стоит · должен</span><div class="big">gitmelisin</div><p>Совет и внутренний долг. С olmak — догадка: yorgun olmalısın, «наверное, устал».</p></div>
+      <div class="stage rv"><h3 lang="tr">lazım · gerek</h3><span class="lbl">Надо · нужно</span><div class="big">Bana su lazım</div><p>Кому — в дательном. Действие — через -ma + «чей»: gitmem lazım. Не надо — gerek yok.</p></div>
+      <div class="stage rv rv-d1"><h3 lang="tr">zorunda</h3><span class="lbl">Вынужден</span><div class="big">zorunda kaldım</div><p>-mak/-mek + zorunda + лицо. Решают обстоятельства. «Пришлось» — zorunda kaldım.</p></div>
+      <div class="stage rv rv-d2"><h3 lang="tr">şart</h3><span class="lbl">Обязательно</span><div class="big">Pasaport şart</div><p>Обязательное условие. Строится как lazım, работает как бетонная стена в окне номер семь.</p></div>
+      <div class="stage rv rv-d3"><h3 lang="tr">olabilir · olmalı</h3><span class="lbl">Наверное · наверняка</span><div class="big">Evde olmalı</div><p>Догадка: olabilir ≈ 50%, olmalı ≈ 90%. -miş olmalı — «видимо, уже»: gitmiş olmalı.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- =================================================================
+     ПРОДАЮЩИЙ БЛОК
+     ================================================================= -->
+<section class="sec" id="platform" style="border-top:1px solid var(--line)">
+  <div class="wrap spanning">
+    <div class="sec-head"><span class="lbl">Этот гайд<br><span class="y">один из 128</span></span><span class="num">[ ПЛАТФОРМА ]</span></div>
+    <h2 class="disp rv"><span class="mask"><span>Грамматика и лексика</span></span><span class="mask"><span>с тем же подходом</span></span></h2>
+    <div class="inds">
+      <div class="ind rv">
+        <div class="img"><img src="media/shots/n-modal.webp" alt="Блок «Модальность и наречия» в грамматике Alterna" loading="lazy"></div>
+        <div class="meta"><b>Грамматика</b><span class="tag">[ 128 гайдов<br>A0 → C1 ]</span></div>
+        <p>Это скриншот из платформы. Блок «Модальность и наречия» — тот самый, из которого вырос этот гайд. Рядом ещё шесть тем.</p>
+      </div>
+      <div class="ind rv rv-d1">
+        <div class="img"><img src="media/shots/n-temy.webp" alt="Темы лексики Alterna: еда, ресторан, больница, погода" loading="lazy"></div>
+        <div class="meta"><b>Лексика</b><span class="tag">[ 131 блок<br>по темам ]</span></div>
+        <p>Еда, ресторан, больница, гостиница, транспорт. Не список слов, а то, что реально говорят. С таблицами и транскрипцией.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="why" style="padding-top:20px">
+  <div class="wrap">
+    <div class="adstory">
+      <div class="story rv">
+        <span class="lbl" style="display:block;margin-bottom:16px">[ Откуда это взялось ]</span>
+        <p>У меня был TÖMER. Год. Каждый день с девяти до часу. Потом домашка. Потом сериал с субтитрами, потому что сил больше ни на что нет.</p>
+        <p>После TÖMER у меня был C1. И сорок вкладок в браузере.</p>
+        <p>Каналы. Плейлисты. Подкасты. Мультики. Словари. Приложения.</p>
+        <p>Половина — мусор. Вторая половина — золото. Где какая половина, я уже не помнил.</p>
+        <p>Я сел и разложил всё по уровням. Каждую ссылку открыл сам. Мусор выкинул.</p>
+        <p>Получилось 1716 материалов. И 128 гайдов. Вот таких, как этот.</p>
+        <p>Показываю другу. Он говорит, сколько. Говорю, тридцать долларов. Он говорит, в месяц? Говорю, один раз. Он говорит, а в чём подвох?</p>
+        <p class="short">Подвоха нет. Есть 1716 материалов, которые не надо искать.</p>
+        <p class="end">Вкладки я, кстати, закрыл. Все сорок.</p>
+      </div>
+      <div>
+        <span class="lbl">[ Что внутри · в цифрах ]</span>
+        <div class="nums">
+          <div class="rv"><div class="n" data-count="1716">0</div><b>материалов по уровням</b><p>Фильмы, книги, мультики, подкасты, приложения, YouTube. Открываешь свой уровень и берёшь.</p></div>
+          <div class="rv"><div class="n" data-count="128">0</div><b>гайдов по грамматике</b><p>Разборы как этот. Без «откройте страницу 42».</p></div>
+          <div class="rv"><div class="n" data-count="131">0</div><b>блок лексики</b><p>По темам. То, что говорят на самом деле.</p></div>
+          <div class="rv"><div class="n" data-count="109">0</div><b>интерактивов</b><p>Слова, тексты, диалоги, аудирование, игры на запоминание.</p></div>
+          <div class="rv"><div class="n" data-count="32">0</div><b>блока по экзаменам</b><p>A1, A2, B1, B2, C1 — по каждому отдельно.</p></div>
+          <div class="rv"><div class="n" data-count="36">0</div><b>гайдов по работе</b><p>Для тех, кто ищет работу в Турции или уже работает.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- витрина -->
+<section class="sec showcase" id="inside">
+  <div class="bgimg"></div>
+  <div class="wrap">
+    <div class="sec-head"><span class="lbl">Наши кейсы</span><span class="num">[ ВНУТРИ ]</span></div>
+    <h2 class="disp rv" style="font-size:clamp(40px,11vw,100px);margin-bottom:22px"><span class="mask"><span>Посмотри,</span></span><span class="mask"><span>что внутри</span></span></h2>
+    <div class="filters" id="filters"></div>
+    <div class="stack" id="stack"></div>
+    <div class="stack-nav">
+      <span class="cnt">[ <b id="cntA">01</b> / <span id="cntB">14</span> ]</span>
+      <div class="slash"><button id="prevC" aria-label="Назад">‹</button><i></i><button id="nextC" aria-label="Вперёд">›</button></div>
+    </div>
+  </div>
+</section>
+
+<!-- видео -->
+<section class="sec vids" id="demo">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ ЗАПИСЬ ЭКРАНА ]</span><span class="lbl">Не рендеры<br><span class="y">настоящая платформа</span></span></div>
+    <h2 class="disp rv" style="font-size:clamp(40px,11vw,100px);margin-bottom:22px"><span class="mask"><span>Так это выглядит</span></span><span class="mask"><span class="y">в работе</span></span></h2>
+    <div class="tabs" id="vtabs"></div>
+    <div class="browser rv" id="browser">
+      <div class="chrome"><i></i><i></i><i></i><span id="vurl">alterna · grammar</span></div>
+      <div class="screen"><img class="poster" id="vposter" alt=""><video id="vid" muted playsinline loop preload="none"></video></div>
+    </div>
+    <div class="cap"><b id="vtitle"></b><p id="vtext"></p></div>
+
+    <div style="margin-top:60px">
+      <span class="lbl" style="display:block;margin-bottom:6px">Каталоги с телефона · листай →</span>
+      <div class="phones" id="phones"></div>
+    </div>
+  </div>
+</section>
+
+<!-- следующие темы -->
+<section class="sec fog" id="next">
+  <div class="clouds" aria-hidden="true"><i style="width:70vw;height:28vw;left:-20vw;top:10%"></i></div>
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <div class="sec-head"><span class="num">[ БЛОК «МОДАЛЬНОСТЬ» ]</span></div>
+        <h2 class="disp rv" style="font-size:clamp(40px,11vw,96px)"><span class="mask"><span>Три темы из семи</span></span><span class="mask"><span><span class="y">ты уже прошёл</span></span></span></h2>
+        <p class="kicker rv" style="margin-top:16px">Четвёртую попробовал в главе 07. Ещё три ждут на платформе. Вот что лежит в этом блоке.</p>
+        <div class="guidebar rv" id="guidebar">
+          <div class="track"><i></i></div>
+          <div class="row"><span>Пройдено гайдов: 1</span><span>Осталось: 127</span></div>
+        </div>
+      </div>
+      <ul class="nextlist rv">
+        <li class="done"><span class="c">✓</span><b>-ebilir (возможность/разрешение)</b><span class="s">пройдено</span></li>
+        <li class="done"><span class="c">✓</span><b>-malı/-meli (долженствование)</b><span class="s">пройдено</span></li>
+        <li class="done"><span class="c">✓</span><b>Lazım, gerek, şart</b><span class="s">пройдено</span></li>
+        <li class="half"><span class="c">½</span><b>Эпистемическая модальность (-olmalı, -olabilir)</b><span class="s">попробовал</span></li>
+        <li class="lock"><span class="c">·</span><b>Наречия степени и интенсивности</b><span class="s">на платформе</span></li>
+        <li class="lock"><span class="c">·</span><b>Модальные частицы в разговорной речи</b><span class="s">на платформе</span></li>
+        <li class="lock"><span class="c">·</span><b>Субъюнктив в зависимых клаузах</b><span class="s">на платформе</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- цена -->
+<section class="sec" id="price">
+  <div class="wrap">
+    <div class="sec-head"><span class="num">[ ДОСТУП ]</span><span class="lbl">Alterna Timur<br><span class="y">A0 → C1</span></span></div>
+    <div class="price">
+      <div class="rv">
+        <div class="tag"><sup>$</sup>30</div>
+        <div class="once">Один раз. Доступ навсегда.<br><span class="gray">Без подписки. Без «продлите тариф».</span></div>
+        <div style="margin-top:26px"><a class="br fill big" href="https://app.lava.top/products/2cdbb9f8-e65b-443e-8d2c-4fea4c121e41" target="_blank" rel="noopener" data-buy>Приобрести доступ</a></div>
+        <div class="math" style="margin-top:30px">
+          <div><span>За один материал</span><b>&lt; 2 ¢</b></div>
+          <div><span>За один гайд, если считать только гайды</span><b>≈ 23 ¢</b></div>
+          <div><span>В день, если заниматься год</span><b>≈ 8 ¢</b></div>
+        </div>
+      </div>
+      <div class="rv rv-d1">
+        <span class="lbl">Что откроется</span>
+        <div class="incl">
+          <div><span>01</span><p><b>128 гайдов по грамматике.</b> Разбор как здесь. Без «откройте страницу 42».</p></div>
+          <div><span>02</span><p><b>131 блок лексики по темам.</b> Не список слов, а то, что реально говорят.</p></div>
+          <div><span>03</span><p><b>109 интерактивных ресурсов.</b> Слова, тексты, диалоги, аудирование, игры на запоминание.</p></div>
+          <div><span>04</span><p><b>32 блока по экзаменам.</b> A1, A2, B1, B2, C1 — по каждому отдельно.</p></div>
+          <div><span>05</span><p><b>36 гайдов по работе.</b> Для тех, кто ищет или уже пашет.</p></div>
+          <div><span>06</span><p><b>1716 материалов по уровням.</b> Фильмы, книги, мультики, подкасты, приложения, YouTube. Открываешь свой уровень и берёшь.</p></div>
+        </div>
+        <p style="margin-top:18px;color:var(--mute);font-size:14px">Всё уже собрано. Искать не надо.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- спроси -->
+<section class="sec fog ask" id="ask">
+  <div class="clouds" aria-hidden="true"><i style="width:90vw;height:34vw;left:-25vw;top:0"></i><i style="width:60vw;height:24vw;right:-10vw;top:50%;animation-duration:50s"></i></div>
+  <div class="wrap">
+    <h2 class="disp rv"><span class="mask"><span>Спроси</span></span><span class="mask"><span>что угодно</span></span></h2>
+    <p class="p rv">Не знаешь, с чего начать на платформе? Выбери уровень — покажу первую дверь.</p>
+    <div class="cols" style="margin-top:36px">
+      <div class="rv">
+        <div class="field"><span class="lbl">Твой уровень</span><div class="chips" id="lvl"></div></div>
+        <div class="levelout" id="lvlOut"><b>Выбери уровень</b><p>A0 — если турецкий пока только «Merhaba» и «Teşekkürler».</p></div>
+        <div style="margin-top:16px"><a class="br ink big" href="https://app.lava.top/products/2cdbb9f8-e65b-443e-8d2c-4fea4c121e41" target="_blank" rel="noopener" data-buy>Открыть свой уровень</a></div>
+      </div>
+      <div class="faq rv">
+        <details><summary>Это подписка?</summary><p>Нет. $30 один раз — и доступ навсегда. Никаких автосписаний.</p></details>
+        <details><summary>Я совсем с нуля. Подойдёт?</summary><p>Да. Платформа идёт от A0 до C1. Для старта есть отдельная ветка A0–A1–A2: алфавит, 29 букв, первые фразы. А в каталоге мультфильмов 70 штук подходят с нуля.</p></details>
+        <details><summary>Чем это лучше бесплатного YouTube?</summary><p>Ничем, если у тебя есть сорок часов, чтобы найти нормальное и выкинуть мусор. Здесь это уже сделано: 1716 материалов разложены по уровням, а грамматика и лексика собраны в одном месте.</p></details>
+        <details><summary>Как оплатить и получить доступ?</summary><p>Оплата проходит на lava.top по кнопке «Приобрести доступ». Там же оформляется доступ. Если что-то пошло не так — пиши в Telegram, разберусь.</p></details>
+        <details><summary>Кто это делает?</summary><p>Тимур Ахметов. Студент университета Акдениз в Анталье, электроинженерия. Год на подготовительном TÖMER, турецкий на уровне TÖMER C1, английский — IELTS 7.5. Турецкую академическую систему знаю изнутри.</p></details>
+        <details><summary>Остался вопрос</summary><p>Пиши в Telegram: <a href="https://t.me/timaxmetov" target="_blank" rel="noopener" style="text-decoration:underline">@timaxmetov</a>. Отвечаю сам.</p></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- финал -->
+<section class="sec final" id="buy">
+  <svg class="ph" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs><filter id="cl"><feTurbulence type="fractalNoise" baseFrequency=".006 .012" numOctaves="5" seed="11"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1.1 -.45"/></filter>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c0c0c" stop-opacity="0"/><stop offset="1" stop-color="#0c0c0c"/></linearGradient></defs>
+    <rect width="1440" height="900" filter="url(#cl)" opacity=".55"><animateTransform attributeName="transform" type="translate" values="0 0;-40 10;0 0" dur="30s" repeatCount="indefinite"/></rect>
+    <rect width="1440" height="900" fill="url(#fade)"/>
+  </svg>
+  <div class="wrap">
+    <div class="top"><span class="lbl">Отвечу<br>как можно скорее</span><span class="lbl">Связаться</span></div>
+    <h2 class="disp rv"><span class="mask"><span>Готов перейти</span></span><span class="mask"><span>от «могу»</span></span><span class="mask"><span class="y">к «говорю»?</span></span></h2>
+    <div class="under">
+      <div><span class="lbl">Анталья,<br>Türkiye</span></div>
+      <div style="display:flex;gap:18px;align-items:flex-end">
+        <div class="qr"><img src="media/qr.svg" alt="QR-код на страницу оплаты"></div>
+        <div style="text-align:right"><span class="lbl">Telegram</span><a class="phone-n" href="https://t.me/timaxmetov" target="_blank" rel="noopener">@timaxmetov</a></div>
+      </div>
+    </div>
+    <a class="megacta" href="https://app.lava.top/products/2cdbb9f8-e65b-443e-8d2c-4fea4c121e41" target="_blank" rel="noopener" data-buy><span>[</span>Хочу доступ<span>]</span></a>
+    <div class="foot"><span>© 2026 Alterna Timur · все права защищены</span><nav><a href="https://t.me/timaxmetov" target="_blank" rel="noopener">Telegram</a><a href="https://app.lava.top/products/2cdbb9f8-e65b-443e-8d2c-4fea4c121e41" target="_blank" rel="noopener">lava.top</a><a href="#top">Наверх ↑</a></nav></div>
+  </div>
+</section>
+
+</main>
+
+<div class="sticky" id="sticky">
+  <div><b>Alterna Timur · $30</b><small>1716 материалов · один раз · навсегда</small></div>
+  <a href="https://app.lava.top/products/2cdbb9f8-e65b-443e-8d2c-4fea4c121e41" target="_blank" rel="noopener" data-buy>[ Приобрести ]</a>
+</div>
+
+<script src="forms.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
