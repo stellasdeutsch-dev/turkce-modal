@@ -487,7 +487,7 @@ $$('#trio .flip').forEach(f => f.addEventListener('click', () => {
       : 'Нормально для первого раза. Я в TÖMER так и начинал. Пролистай шпаргалку и попробуй снова.';
     box.innerHTML = `<div class="top">${bars()}<span class="num">ГОТОВО</span></div>
       <div class="res"><div class="n">${score}/8</div><p>${msg}</p>
-      <div style="margin-top:18px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><button class="br w" id="qAgain">Ещё раз</button><a class="br" href="#platform">Что дальше</a></div></div>`;
+      <div style="margin-top:18px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><button class="br w" id="qAgain">Ещё раз</button><a class="br" href="#platform">Что дальше</a></div><p style="margin-top:14px;font-size:13px">Из Казахстана? Если не проходит оплата — <a href="https://wa.me/message/RCHLEOGGLZ5OC1" target="_blank" rel="noopener" style="color:#25d366;text-decoration:underline">купи через WhatsApp</a>.</p></div>`;
     $('#qAgain').onclick = () => { i = 0; score = 0; res = []; show(); };
     if (score >= 6) confetti();
   }
