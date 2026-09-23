@@ -71,4 +71,5 @@ python3 -m http.server 8834
 
 - Покупка, QR и липкая плашка → `https://app.lava.top/products/2cdbb9f8-e65b-443e-8d2c-4fea4c121e41`
 - Telegram → `https://t.me/timaxmetov`
+- WhatsApp для Казахстана (если не проходит оплата) → `https://wa.me/message/RCHLEOGGLZ5OC1`: под кнопкой оплаты, в FAQ, в финале и в подвале
 - Сайт: **https://stellasdeutsch-dev.github.io/turkce-modal/**
